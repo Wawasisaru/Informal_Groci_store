@@ -3,10 +3,14 @@
     display: flex;
     justify-content: space-around;
   }
-  
+  #aboutTitle{
+    font-size: 3rem;
+    margin-top: 5px;
+  }
   .content2 {
     width: 50%;
-    font-size: 29px;
+    font-size: 1.3em;
+    padding-top: 18px;
   }
   
   .image {
