@@ -1,0 +1,38 @@
+.page2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .content2 {
+    width: 50%;
+    font-size: 29px;
+  }
+  
+  .image {
+    width: 50%;
+    margin-left: 10%;
+  }
+  
+  .contentabout {
+    margin-bottom: 5%;
+    text-align: center;
+    color: #D1570C;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page2 {
+      flex-direction: column;
+    }
+    
+    .content2,
+    .image {
+      width: 100%;
+      margin-left: 0;
+    }
+    
+    .content2 {
+      font-size: 24px;
+    }
+  }
+  
