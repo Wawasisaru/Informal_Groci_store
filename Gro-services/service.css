@@ -1,0 +1,76 @@
+.service {
+    text-align: center;
+    font-size: 3.5em;
+    color: #D1570C;
+}
+
+.produce {
+    padding-left: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.fresh {
+    font-size: 2.2em;
+    color: #D1570C;
+}
+
+.selection {
+    font-size: 1.3em;
+    padding-top: 30;
+}
+
+.grocci {
+    margin-top: 10%;
+    padding-left: 10%;
+    width: 50%;
+    border-radius: 1em;
+}
+
+.delivery {
+    width: 40%;
+    padding-left: 15%;
+    padding-top: 30%;
+}
+
+.more {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.offers {
+    width: 40%;
+    padding-left: 15%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .service {
+        font-size: 2.5em;
+    }
+
+    .produce {
+        padding-left: 1em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fresh {
+        font-size: 1.8em;
+    }
+
+    
+    .grocci {
+        padding-left: 5%;
+        width: 90%;
+    }
+
+    .deliver {
+        padding-left: 10%;
+        margin-top: 0.5em;
+    }
+
+    .offers {
+        /* margin-bottom: 5em; */
+        padding-left: 10%;
+    }
+}
