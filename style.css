@@ -1,0 +1,96 @@
+*{margin: 0;
+padding: 0;
+}
+/* Navigation bar */
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+/* background-color: rgba(10, 1, 1, 0.7); */
+background-color:#274001;
+font-weight: bold;
+color: whitesmoke;
+text-decoration: none;
+}
+ul li {
+ display: inline-block;
+ margin-left: 40px;
+ /* text-decoration: none; */
+}
+a {
+text-decoration: none;
+/* text-shadow: chartreuse;
+ */
+ color:whitesmoke;
+ font-size: 20px;
+text-align: left;
+padding-left: 20px;
+font-weight: bold;
+}
+/* End of navigation bar */
+/* Start of the homepage styling */
+#home{
+font-weight: bold;
+color: #CF6521;
+margin-left: 30px;
+}
+#homepage {
+/* border: 7px solid red; */
+background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1684095125/Hotel-booking/homepage-removebg_endsje.png");
+background-repeat: no-repeat;
+height: 90vh;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+} 
+#textone{
+font-size: 30px;
+color:#d1570c;
+font-weight: bold;
+}
+#servetext{
+color:#162401;
+font-size: 30px;
+font-weight: bold;
+padding-left: 60PX;
+padding-top: 20px;
+
+}
+#information{
+/* margin-top: 60px; */
+/* margin-left: 40%; */
+width: 40%;
+display: flex;
+/* padding-left: 30PX; */
+padding-top: 15%;
+flex-direction: column;
+
+}
+/* * Styles for screens smaller than 768px  */
+ @media (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+  ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+  #homepage {
+    align-items: center;
+    text-align: center;
+  }
+  #information {
+    width: 80%;
+    padding-top: 10%;
+  }
+} 
+
+
+
+  
