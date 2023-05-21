@@ -10,7 +10,7 @@ footer {
 }
 
 .footer-section1 {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
