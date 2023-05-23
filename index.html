@@ -17,7 +17,27 @@
 </head>
 
 <body>
-  <section id="mainpage">
+
+  <div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#homepage">Home</a></li>
+            <li><a href="#aboutTitle">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contactpage">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="./About-pages/about_images/menu.png" id="menu">
+</div>
+
+
+
+
+
+  <!-- <section id="mainpage">
     <div class="nav">
       <input type="checkbox" id="nav-check">
       <div class="nav-header">
@@ -43,7 +63,7 @@
       </div>
       
     </div>
-  </div>
+  </div> -->
   
     <!--more information about the homepgae -->
     <div id="homepage">
@@ -187,6 +207,24 @@
 
     </footer>
   </section>
+
+  <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    sideNav.style.right = "-250px"
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "About-pages/about_images/close.png";
+        }
+        else{
+             sideNav.style.right = "-250px";
+             menu.src = "./About-pages/about_images/menu.png" ;
+        }
+    }
+</script>
+
 </body>
 
 </html>
